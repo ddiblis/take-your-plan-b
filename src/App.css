@@ -2,37 +2,76 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bg-l {
+  background-color: #202020;
+}
+
+.bg-d {
+  background-color: #171717;
+}
+
+.footer {
+  height: 300px;
+}
+
+.text {
+  color: #ffffff;
+  font-family: "EB Garamond", "Playfair Display", sans-serif;
+}
+
+.number {
+  font-family: 'EB Garamond' ,"Playfair Display", Sans-serif;
+  background-image: url(https://ld-wp.template-help.com/elementor_templates/prosaica/wp-content/uploads/2018/05/richard-img3.png);
+  background-size: 130px;
+  font-size: 300px;
+  font-weight: 900;
+  text-align: center;
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: rgba(0, 0, 0, 0);
+}
+
+/* section */
+
+.mini-title {
+  margin-top: 15px;
+  margin-bottom: -5px;
+  color: #722F37;
+}
+
+.less-mini-title {
+  margin-bottom: 40px;
+}
+
+/* horizontal separator */
+
+.h-divider {
+  margin-top: 50px;
+  position: relative;
+}
+
+.h-divider .shadow {
+  overflow: hidden;
+  height: 7px;
+  width: 85%;
+}
+
+.h-divider .shadow:after {
+  content: '';
+  display: block;
+  margin: -25px auto 0;
+  height: 25px;
+  border-radius: 125px/12px;
+  box-shadow: 0 0 8px white;
+}
+
+.h-divider img {
+  margin-top: -43px;
+  margin-bottom: 10px;
+  max-width: 80px;
 }
